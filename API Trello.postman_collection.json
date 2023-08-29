@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "09c80926-7efb-4bc1-a1f8-5b921c8489ba",
+		"name": "API Trello",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17225614",
+		"_collection_link": "https://fabianopereiranogueira.postman.co/workspace/Sicred~3878b169-f2f5-4a01-bded-79ae1d0ad7bd/collection/17225614-09c80926-7efb-4bc1-a1f8-5b921c8489ba?action=share&creator=17225614&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "https://api.trello.com/1/actions/592f11060f95a3d3d46a987a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.trello.com/1/actions/592f11060f95a3d3d46a987a",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"actions",
+						"592f11060f95a3d3d46a987a"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
